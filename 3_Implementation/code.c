@@ -108,7 +108,7 @@ void bill()
 			ln++;
 			if(ln==2)
 			break;
-			printf("Enter the Quantity:");
+			printf("\tEnter the Quantity:");
 			scanf("%d",&a);
 			if(a <= item.quantity)
 			{
@@ -122,7 +122,7 @@ void bill()
 			}
 			else
 			{
-				printf("Sorry Out of Stock\n");
+				printf("\n\tSorry Out of Stock\n");
 				bi++;
 				//goto l1;
 			}
@@ -148,7 +148,7 @@ void bill()
 	remove("Records.txt");
 	rename("temp.txt","Records.txt");
 	ln=0;
-	printf("Do you Want to Shop More:\nPress 1 for More\nPress 2 to Exit");
+	printf("\tDo you Want to Shop More!\n\tPress 1 for More\n\tPress 2 to Exit\n\t");
 	scanf("%d",&k);
 	if(k==1)
 	goto l3;
@@ -247,9 +247,8 @@ void invoice()
 	{
 		printf("There are No Products in your Cart\n");
 	}
-	printf("\n\n****************************INVOICE**************************\n\n");
+	printf("\n\n                            INVOICE\n\n");
 	printf("product number\t| product name\t| price\t| quantity\t| amount\t|\n");
-	printf("*************************************************************\n");
 	for(o=0;o<ti;o++)
 	{
 		cst[o].amount=0;
