@@ -78,14 +78,14 @@ void create()
 }
 void bill()
 {
-	int na=0;  //used for product number in scanf function
-	int a=0;	/**/
+	int na=0;  
+	int a=0;	
 	int cont=0;
 	int k=0;
 	int r=0;
 	int w=0;
 	int ch=0;
-	int l=0;	/**/
+	int l=0;	
 	int bi=0;
 	int ln=0;
     printf("\t");
@@ -184,7 +184,6 @@ void display()
 		fscanf(fp,"%d",&item.quantity);
 		fscanf(fp,"%d",&item.price);
 		printf("\n\t  %14d|\t%8s|\t%8d|\t%d|\n",item.productnumber,item.productname,item.quantity,item.price);
-        //printf("\n");
 	}
 	fclose(fp);
 }
@@ -216,8 +215,7 @@ void edit()
 			fscanf(fp,"%d",&item.quantity);
 			fscanf(fp,"%d",&item.price);
 			n--;
-			printf("\t");
-			printf("Product has been Successfully Deleted\n");
+			printf("\tProduct has been Successfully Deleted\n");
 		}
 		else
 		{
@@ -233,10 +231,7 @@ void edit()
 	fclose(fp);
 	if(found==0)
 	{
-	    printf("\t");
-		printf("Product no Found");
-		printf("\n");
-		printf("\n");
+		printf("\tProduct no Found\n\n");
 	}
 	remove("Quantity.txt");
 	rename("temp2.txt","Quantity.txt");
@@ -250,12 +245,9 @@ void invoice()
 	float gt=0;
 	if(ti==0)
 	{
-		printf("There are No Products in your Cart");
-		printf("\n");
+		printf("There are No Products in your Cart\n");
 	}
-	printf("\n\n");
-	printf("****************************INVOICE**************************");
-	printf("\n\n");
+	printf("\n\n****************************INVOICE**************************\n\n");
 	printf("product number\t| product name\t| price\t| quantity\t| amount\t|\n");
 	printf("*************************************************************\n");
 	for(o=0;o<ti;o++)
@@ -268,12 +260,9 @@ void invoice()
 	{
 		printf("%6d\t       |%9s   \t  | %3d\t|%3d\t        |   %3d\n",cst[j].productnumber,cst[j].productname,cst[j].price,cst[j].quantity,cst[j].amount);
 	}
-	printf("\nAmount Payable:%f",gt);
-	printf("\n");
-	printf("Thank you for Shopping");
-	printf("\n");
-	printf("Visit Again");
-	printf("\n");
+	printf("\nAmount Payable:%f\n",gt);
+	printf("Thank you for Shopping\n");
+	printf("Visit Again\n");
 }
 void mdelete()
 {
@@ -364,93 +353,57 @@ int main()
 	fscanf(fpe,"%d",&n);
 	fclose(fpe);
 	printf("\n");
-	printf("************************************************************************************************************************");
-	printf("\n");
-	printf("*****************************************    WELCOME TO SHOPPING CART    ***********************************************");
-	printf("\n");
-	printf("\t                                GET A WELCOME BONUS ON YOUR FIRST PURCHASE ");
-	printf("\n\n");
-	printf("\t\t\t          Kindly note that the Goods once sold are not returnable");
-	printf("\n");
-	printf("\t\t\t\t\t");
+	printf("************************************************************************************************************************\n");
+	printf("*****************************************    WELCOME TO RETAIL STORE     ***********************************************\n");
+	printf("\t                            GET A WELCOME BONUS ON YOUR FIRST PURCHASE \n\n");
+	printf("\t\t\t       Kindly note that the Goods once sold are not returnable\n\t\t\t\t\t");
     printf("      Reference Number: %d\n",n);
     q: printf("\n\t");
-    printf("****************************");
-    printf("\n");
-    printf("\t");
-    printf("Select an Option: ");
-    printf("\n");
-    printf("\t");
-    printf("****************************");
-    printf("\n");
-    printf("\t");
-	printf("1. ADMINISTRATOR");
-	printf("\n\t");
-	printf("2. CUSTOMER");
-	printf("\n\t");
-	printf("3. EXIT");
-	printf("\n");
-	printf("\n\t");
+    printf("****************************\n\t");
+    printf("Select an Option: \n\t");
+    printf("****************************\n\t");
+	printf("1. ADMINISTRATOR\n\t");
+	printf("2. CUSTOMER\n\t");
+	printf("3. EXIT\n\n\t");
 	printf("Please Enter an Option: ");
 	scanf("%d",&s);
 
 	switch(s)
 	{
 	          case 1:
-               printf("Please Select an Option: ");
-               printf("\n");
-               printf("\t");
-               printf("****************************");
-               printf("\n");
-		       printf("\t1.CREATE");
-		       printf("\n\t");
-		       printf("2.DELETE/MODIFY");
-		       printf("\n\t");
-		       printf("3.DISPLAY");
-		       printf("\n\t");
-		       printf("4.MAIN MENU");
-		       printf("\n");
-		       printf("\n");
-		       printf("\t");
+               printf("\t____________________________\n");
+			   printf("\n\tPlease Select an Option: \n\t");
+               printf("____________________________\n");
+		       printf("\n\t1.CREATE\n\t");
+		       printf("2.DELETE/MODIFY\n\t");
+		       printf("3.DISPLAY\n\t");
+		       printf("4.MAIN MENU\n\n\t");
 		       printf("Please Enter an Option: ");
 		        scanf("%d",&y);
 		        switch(y)
 		        {
-        			case 1:create();
+        		case 1:create();
         			      goto q;
-  			      case 2:edit();
+  			    case 2:edit();
   			             goto q;
-                  case 3:display();
+                case 3:display();
                          goto q;
-                  case 4: goto q;
+                case 4: goto q;
                   default : printf("error\n");
 				  goto q;
         		}
 		         break;
-
        case 2: printf("\n");
                printf("\t");
-               printf("****************************");
-               printf("\n");
-               printf("\t");
-               printf("Select an Option: ");
-               printf("\n");
-               printf("\t");
-               printf("****************************");
-               printf("\n");
-               printf("\t");
-               printf("1.BILL");
-               printf("\n\t");
-               printf("2.INVOICE");
-               printf("\n\t");
-               printf("3.DISPLAY");
-               printf("\n\t");
-               printf("4.MYCART");
-               printf("\n\t");
-               printf("5.MAIN MENU");
-               printf("\n\t");
-               printf("6.DELETE ITEMS IN CART\n");
-               printf("\n\t");
+               printf("____________________________\n\n\t");
+               printf("Select an Option: \n\t");
+               printf("____________________________\n\n\t");
+               printf("1.BILL\n\t");
+               printf("2.INVOICE\n\t");
+               printf("3.DISPLAY\n\t");
+               printf("4.MYCART\n\t");
+               printf("5.MAIN MENU\n\t");
+               printf("6.DELETE ITEMS IN CART\n\n\t");
                printf("Please Enter an Option: ");
                scanf("%d",&y);
                printf("\n");
@@ -458,21 +411,15 @@ int main()
 		        {
                     case 1 : bill();
         			         goto q;
-
                     case 2 : invoice();
                              goto q;
-
                     case 3 : display();
                              goto q;
-
                     case 4 : mdisplay();
                              goto q;
-
                     case 5 : goto q;
-
                     case 6 : mdelete();
                              goto q;
-
                     default : printf("Error\n");
                               goto q;
         		}
