@@ -1,5 +1,5 @@
 # Retail Billing System 
-Credits to amanovishnu & itsourcecode.com
+Credits to amanovishnu 
 
 ![codigo - Build Status](https://api.codiga.io/project/30944/score/svg) 
 ![codigo](https://api.codiga.io/project/30944/status/svg) 
