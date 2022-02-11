@@ -25,7 +25,7 @@ void display()
 			printf("\n");
 			break;
 		}
-		fscanf(fp,"%s",item.productname);
+		fscanf(fp,"%s",&item.productname);
 		fscanf(fp,"%d",&item.quantity);
 		fscanf(fp,"%d",&item.price);
 		printf("\n\t  %14d|\t%8s|\t%8d|\t%d|\n",item.productnumber,item.productname,item.quantity,item.price);
