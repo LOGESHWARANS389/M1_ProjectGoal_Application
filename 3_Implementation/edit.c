@@ -23,7 +23,7 @@ void edit()
 		if(item.productnumber==h)
 		{
 			found=1;
-			fscanf(fp,"%s",item.productname);
+			fscanf(fp,"%s",&item.productname);
 			fscanf(fp,"%d",&item.quantity);
 			fscanf(fp,"%d",&item.price);
 			n--;
@@ -31,7 +31,7 @@ void edit()
 		}
 		else
 		{
-			fscanf(fp,"%s",item.productname);
+			fscanf(fp,"%s",&item.productname);
 			fscanf(fp,"%d",&item.quantity);
 			fscanf(fp,"%d",&item.price);
 			fprintf(fptr,"%d\t%s\t%d\t%d\t",item.productnumber,item.productname,item.quantity,item.price);
