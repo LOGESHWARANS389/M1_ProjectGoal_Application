@@ -100,7 +100,7 @@ void bill()
 	{
 		l++;
 		fscanf(fp,"%d",&item.productnumber);
-		fscanf(fp,"%s",item.productname);
+		fscanf(fp,"%s",&item.productname);
 		fscanf(fp,"%d",&item.quantity);
 		fscanf(fp,"%d",&item.price);
 		if(item.productnumber == na)
@@ -180,7 +180,7 @@ void display()
 			printf("\n");
 			break;
 		}
-		fscanf(fp,"%s",item.productname);
+		fscanf(fp,"%s",&item.productname);
 		fscanf(fp,"%d",&item.quantity);
 		fscanf(fp,"%d",&item.price);
 		printf("\n\t  %14d|\t%8s|\t%8d|\t%d|\n",item.productnumber,item.productname,item.quantity,item.price);
@@ -211,7 +211,7 @@ void edit()
 		if(item.productnumber==h)
 		{
 			found=1;
-			fscanf(fp,"%s",item.productname);
+			fscanf(fp,"%s",&item.productname);
 			fscanf(fp,"%d",&item.quantity);
 			fscanf(fp,"%d",&item.price);
 			n--;
@@ -219,7 +219,7 @@ void edit()
 		}
 		else
 		{
-			fscanf(fp,"%s",item.productname);
+			fscanf(fp,"%s",&item.productname);
 			fscanf(fp,"%d",&item.quantity);
 			fscanf(fp,"%d",&item.price);
 			fprintf(fptr,"%d\t%s\t%d\t%d\t",item.productnumber,item.productname,item.quantity,item.price);
@@ -308,7 +308,7 @@ void mdelete()
 	for(j=0;j<n;j++)
 	{
 		fscanf(fq,"%d",&item.productnumber);
-		fscanf(fq,"%s",item.productname);
+		fscanf(fq,"%s",&item.productname);
 		fscanf(fq,"%d",&item.quantity);
 		fscanf(fq,"%d",&item.price);
 		if(item.productnumber==f)
