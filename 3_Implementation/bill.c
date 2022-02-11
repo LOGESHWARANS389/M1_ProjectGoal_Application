@@ -23,7 +23,7 @@ void bill()
 	{
 		l++;
 		fscanf(fp,"%d",&item.productnumber);
-		fscanf(fp,"%s",&item.productname);
+		fscanf(fp,"%10s",&item.productname);
 		fscanf(fp,"%d",&item.quantity);
 		fscanf(fp,"%d",&item.price);
 		if(item.productnumber == na)
