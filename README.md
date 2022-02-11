@@ -2,7 +2,7 @@
 Credits to amanovishnu & itsourcecode.com
 
 ![codigo - Build Status](https://api.codiga.io/project/30944/score/svg) 
-![codigo](https://api.codiga.io/project/30944/status/svg) |
+![codigo](https://api.codiga.io/project/30944/status/svg) 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1cf3cea7803f444b8d926ffff2ae3ba2)](https://www.codacy.com/gh/LOGESHWARANS389/M1_RetailBillingSystem_Application/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LOGESHWARANS389/M1_RetailBillingSystem_Application&amp;utm_campaign=Badge_Grade) 
 [![cppcheck](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/c-cpp.yml) 
 [![CMake](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/cmake.yml/badge.svg)](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/cmake.yml)
