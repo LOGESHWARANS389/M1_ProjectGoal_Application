@@ -7,7 +7,6 @@ Credits to itsourcecode.com
 [![C/C++ CI](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/c-cpp.yml)
 [![CMake](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/cmake.yml/badge.svg)](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/cmake.yml)
 
-
 ## Folder Structure
 Folder               | Description
 ---------------------| -----------------------------------------
