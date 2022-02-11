@@ -24,7 +24,7 @@ void create()
 		scanf("%d",&item.productnumber);
 		printf("\t");
 		printf("Enter Product Name:");
-		scanf("%s",item.productname);
+		scanf("%s",&item.productname);
 		printf("\t");
 		printf("Enter Quantity:");
 		scanf("%d",&item.quantity);
