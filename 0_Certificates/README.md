@@ -1,2 +1,2 @@
 # CERTIFICATES
-Attached Certificates of Sololearn, cisco and screenshot of Hackerearth points
+Attached Certificates of Sololearn, cisco, Introduction to github and screenshot of Hackerearth points
