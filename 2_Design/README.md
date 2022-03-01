@@ -1,2 +1,2 @@
 # DESIGN
-Attached structural and Behavorial Diagrams
+Attached Structural and Behavorial Diagrams
