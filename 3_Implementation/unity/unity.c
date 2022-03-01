@@ -1,34 +1,3 @@
-Skip to content
-Why GitHub? 
-Team
-Enterprise
-Explore 
-Marketplace
-Pricing 
-Search
-Sign in
-Sign up
-Kowsik15
-/
-M1_Converters_Util
-Public
-Code
-Issues
-Pull requests
-Discussions
-Actions
-Projects
-Wiki
-Security
-Insights
-M1_Converters_Util/3_Implementation/unity/unity.c
-@Kowsik15
-Kowsik15 Added files via uplaod
-Latest commit 49993ab 11 days ago
- History
- 1 contributor
-2184 lines (1981 sloc)  63.4 KB
-   
 /* =========================================================================
     Unity Project - A Test Framework for C
     Copyright (c) 2007-21 Mike Karlesky, Mark VanderVoord, Greg Williams
@@ -2213,16 +2182,4 @@ int UnityTestMatches(void)
 
 #endif /* UNITY_USE_COMMAND_LINE_ARGS */
        /*-----------------------------------------------*/
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+
