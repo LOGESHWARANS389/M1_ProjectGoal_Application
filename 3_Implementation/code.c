@@ -49,7 +49,7 @@ void create()
 	printf("\n");
 	FILE *fpq;
 	fpq=fopen("Quantity.txt","w");
-	fprintf(fp,"productnumber\t,ProductName\t, Quantity\n, Price\t");
+	fprintf(fpq,"productnumber\t,ProductName\t, Quantity\n, Price\t");
 	fprintf(fpq,"%d",n);
 	fclose(fpq);
 	while(i<n)
