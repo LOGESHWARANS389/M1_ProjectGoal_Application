@@ -88,8 +88,9 @@ void bill()
 	int l=0;	
 	int bi=0;
 	int ln=0;
-    printf("\t");
-	l3 : printf("Enter the Product Number:");
+   
+	printf("\t");
+	printf("Enter the Product Number:");
 	scanf("%d",&na);
 	printf("\n");
 	FILE *fp;
