@@ -13,6 +13,7 @@ Credits to amanovishnu
 # CMAKE #
 [![CMake](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/cmake.yml/badge.svg)](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/cmake.yml)
 
+[![Cppcheck](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/Static-check.yml/badge.svg)](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/Static-check.yml)
 
 ## Folder Structure
 Folder               | Description
