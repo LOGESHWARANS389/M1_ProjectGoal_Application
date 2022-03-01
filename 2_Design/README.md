@@ -9,7 +9,7 @@
  
  ![Low_level](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/activitydiagram2.jpg)
  
-  # Behavioral Diagram
+ # Behavioral Diagram
  * High Level Behavioral Diagram:
  
  ![High_level](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/diagram3.jpg)
