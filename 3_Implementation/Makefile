@@ -3,21 +3,24 @@ PROJECT_NAME = M1_RetailBillingSystem_Application
 
 # All source code files
 SRC = main.c\
+src/create.c\
 src/display.c\
 src/bill.c\
 src/edit.c\
 src/invoice.c\
-src/mdelete.c
+src/mdelete.c\
 src/mdisplay.c
 
 
-TEST_SRC = src/ display.c\
+TEST_SRC = src/create.c\
+src/ display.c\
 src/ bill.c\
 src/ edit.c\
 src/ invoice.c\
 src/ mdelete.c\
+src/ mdisplay.c\
 unity/unity.c\
-test/test.c\
+test/test_RetailBillingSystem.c
 
 # Path to header files
 INC_HEADER = inc
@@ -57,7 +60,7 @@ coverageCheck:
 	$(RM) *.gcno
 	$(RM) *.c.gcov
 	$(RM) *.DAT
-	$(RM) test_management.c 
+	$(RM) test_RetailBillingSystem.c 
 
 cppcheck:
 	cppcheck --enable=all -I $(INC_HEADER) $(SRC)
