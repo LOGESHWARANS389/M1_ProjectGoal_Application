@@ -17,6 +17,7 @@
 #include<ctype.h>
 #include<conio.h>
 
+void create()
 void bill()
 void display()
 void edit()
