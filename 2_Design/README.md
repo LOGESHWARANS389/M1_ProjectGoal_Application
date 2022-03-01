@@ -1,19 +1,18 @@
 # DESIGN
-Attached Structural and Behavorial Diagrams
  # Structural Diagram
- * High Level Flow chart Structural Diagram:
+ * High Level Structural Diagram:
  
- ![High_level_flowchart](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/activitydiagram.jpg)
+ ![High_level](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/activitydiagram.jpg)
  
- * Low Level Flow chart Behavioural Diagram:
+ * Low Level Structural Diagram:
  
- ![Low_level_flowchart](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/activitydiagram2.jpg)
+ ![Low_level](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/activitydiagram2.jpg)
  
-  # Behavioural Diagram
- * High Level Flow chart Behavioural Diagram:
+  # Behavioral Diagram
+ * High Level Behavioral Diagram:
  
- ![High_level_flowchart](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/diagram3.jpg)
+ ![High_level](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/diagram3.jpg)
  
- * Low Level Flow chart Behavioural Diagram:
+ * Low Level Behavioral Diagram:
  
- ![Low_level_flowchart](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/diagram4.jpg)
+ ![Low_level](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/blob/main/2_Design/diagram4.jpg)
