@@ -10,6 +10,9 @@ Credits to amanovishnu
 [![cppcheck](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/c-cpp.yml) 
 # CMAKE #
 [![CMake](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/cmake.yml/badge.svg)](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/cmake.yml)
+# Unity testing
+[![Unit Testing - Unity](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/unity.yml/badge.svg)](https://github.com/LOGESHWARANS389/M1_RetailBillingSystem_Application/actions/workflows/unity.yml)
+
 ## Folder Structure
 Folder               | Description
 ---------------------| -----------------------------------------
