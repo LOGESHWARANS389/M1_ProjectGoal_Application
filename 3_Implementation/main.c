@@ -1,3 +1,14 @@
+/**
+ * @file main.c
+ * @author Logeshwaran S 
+ * @brief 
+ * @version 0.1
+ * 
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include "billing_system.h"
 int main()
 {
